@@ -26,7 +26,37 @@
   <body>
     
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.21.0/firebase.js" integrity="sha512-kxxlAms/2Lu7URlRnGzsk3gI/R7eA5zWbwUyCZrsA5kG7mWisgcXqnnha6F9aW16PBhFDSj9injKx29V6k7h9g==" crossorigin="anonymous"></script>
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-storage.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+
+var firebaseConfig = {
+                apiKey: "AIzaSyCOZnFI76L2nV0Og0eQ9uF-AmqIlQUsX0Q",
+                authDomain: "educacion-503ba.firebaseapp.com",
+                databaseURL: "https://educacion-503ba.firebaseio.com",
+                projectId: "educacion-503ba",
+                storageBucket: "educacion-503ba.appspot.com",
+                messagingSenderId: "718184648370",
+                appId: "1:718184648370:web:0329f453343ea6e7ff03ab"
+            }
+
+            firebase.initializeApp(firebaseConfig); 
+  
+
+</script>
+
+
     
   </body>
 </html>
